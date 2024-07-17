@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yshrink version="4.1.0">
+<!-- no entrypoints given - using class access public and protected on all inoutpairs. -->
+<!-- parsing /Users/steve.lorello/projects/spring/simple-test-lib/target/simple-test-lib-1.0-SNAPSHOT.jar -->
+<entrypoints>
+	<class name="com.testlib.packagetokeep.ClassToKeep" />
+	<method signature="void &lt;init&gt;()" class="com.testlib.packagetokeep.ClassToKeep" />
+	<method signature="void methodToKeep()" class="com.testlib.packagetokeep.ClassToKeep" />
+	<class name="com.testlib.packagestoexclude.SimpleClassToExclude" />
+	<method signature="void &lt;init&gt;()" class="com.testlib.packagestoexclude.SimpleClassToExclude" />
+	<method signature="void simpleMethod()" class="com.testlib.packagestoexclude.SimpleClassToExclude" />
+</entrypoints>
+
+<!-- writing shrinked /Users/steve.lorello/projects/spring/simple-test-lib/target/simple-test-lib-1.0-SNAPSHOT.jar to /Users/steve.lorello/projects/spring/simple-test-lib/target/yguard_temp_12783681727342583955.jar. -->
+<inOutPair in="/Users/steve.lorello/projects/spring/simple-test-lib/target/simple-test-lib-1.0-SNAPSHOT.jar" out="/Users/steve.lorello/projects/spring/simple-test-lib/target/yguard_temp_12783681727342583955.jar">
+	<removed-code>
+	</removed-code>
+	<removed-resources>
+	</removed-resources>
+<!-- 	shrinked /Users/steve.lorello/projects/spring/simple-test-lib/target/simple-test-lib-1.0-SNAPSHOT.jar BY -11.81%. -->
+<!-- 	size before: 3 KB, size after: 4 KB. -->
+<!-- 	removed 0 classes, 0 methods, 0 fields, 0 resources. -->
+<!-- 	2 classes remaining of 2 total. -->
+</inOutPair>
+</yshrink>
+

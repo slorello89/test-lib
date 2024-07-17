@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v4.1.0, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Wed Jul 17 16:22:26 EDT 2024
+
+  Jar file to be obfuscated:           yguard_temp_12783681727342583955.jar
+  Target Jar file for obfuscated code: simple-test-lib-1.0-SNAPSHOT.jar
+
+-->
+<!--
+  Memory in use after class data structure built: 26953304 bytes
+  Total memory available                        : 113246208 bytes
+-->
+<expose>
+  <class name="com.testlib.packagetokeep.ClassToKeep"/>
+  <method class="com.testlib.packagetokeep.ClassToKeep" name="void methodToKeep()"/>
+</expose>
+<map>
+  <package name="com.testlib.packagestoexclude" map="A"/>
+  <class name="com.testlib.packagestoexclude.SimpleClassToExclude" map="A"/>
+  <method class="com.testlib.packagestoexclude.SimpleClassToExclude" name="void simpleMethod()" map="A"/>
+</map>
+</yguard>

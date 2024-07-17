@@ -1,0 +1,1 @@
+Due to licensing the source for the project is intentionally omitted from this jar.
