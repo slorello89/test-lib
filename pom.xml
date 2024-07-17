@@ -4,10 +4,38 @@
 
   <groupId>com.slorello</groupId>
   <artifactId>simple-test-lib</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
+  <scm>
+    <url>https://github.com/slorello89/test-lib</url>
+    <connection>scm:git:https://github.com/slorello89/test-lib</connection>
+    <developerConnection>scm:git:git@github.com:https://github.com/slorello89/test-lib</developerConnection>
+  </scm>
 
+  <developers>
+    <developer>
+      <id>slorello</id>
+      <name>Steve Lorello</name>
+      <organization>Redis</organization>
+      <organizationUrl>redis.io</organizationUrl>
+      <roles>
+        <role>developer</role>
+        <role>author</role>
+      </roles>
+    </developer>
+  </developers>
+
+
+  <licenses>
+    <license>
+      <name>NONE</name>
+    </license>
+  </licenses>
+
+  <description>
+    This is a simple test library to demonstrate how to use Maven with obfuscation.
+  </description>
   <name>simple-test-lib</name>
   <url>http://maven.apache.org</url>
   <repositories>
